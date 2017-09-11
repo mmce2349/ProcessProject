@@ -22,6 +22,11 @@ public class SampleController
 		PlayDohSnake secondSnake;
 		secondSnake = new PlayDohSnake(15);
 		
+		System.out.println("Here is my playdoh circle.");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + secondCircle);
+		
+		System.out.println("Bare witness to the almighty PlayDohSnake!");		
 		System.out.println("This is a sample project to show the github and");
 		System.out.println("eclipse process so I develop muscle memory :D");
 		
@@ -35,5 +40,8 @@ public class SampleController
 		System.out.println("Please type your favorite food");
 		String answer = firstScanner.nextLine();//User types and computer gets it
 		System.out.println("Oh, you like to eat " + answer);
+		System.out.println("How old are you????");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old.");
 	}
 }

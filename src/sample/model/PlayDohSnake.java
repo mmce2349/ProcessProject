@@ -11,4 +11,11 @@ public class PlayDohSnake
 	{
 		this.size = size;
 	}
+	public String toString()
+	{
+		String description = "I am playdoh snake "+ size;
+		return description;			
+	}//I learned how to create more objects, and change variables such as size, height, etc. this is...
+	//....helpful because it lets you change it according to your preferences. Plus, we learned how to..
+	//... make the program state the size of the object so we know what it is. 
 }
