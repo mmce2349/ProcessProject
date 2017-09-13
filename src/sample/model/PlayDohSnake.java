@@ -18,4 +18,4 @@ public class PlayDohSnake
 	}//I learned how to create more objects, and change variables such as size, height, etc. this is...
 	//....helpful because it lets you change it according to your preferences. Plus, we learned how to..
 	//... make the program state the size of the object so we know what it is. 
-}
+}// data member are private, and should be read by constructor. 
